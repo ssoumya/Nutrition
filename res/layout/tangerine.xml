@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bgpic">
+  
+   <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60px" >
+   
+      <TableRow android:gravity="right">
+     <Button 
+        android:id="@+id/btn_tangerine_menu"
+        android:text="Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="55px">
+    </Button>  
+    <Button 
+        android:id="@+id/btn_tangerine_exit"
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="55px">
+    </Button>
+    </TableRow>
+  
+</TableLayout>
+  
+  <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="250px"
+            android:background="@drawable/tangerines"
+             />
+ <TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="                  Tangerines"
+            android:textStyle="bold"
+            android:textSize="32px"
+            android:textColor="#000000"
+         />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Serving Size"
+            android:gravity="left"
+            android:padding="8dip"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:text="195 g"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+     <TableRow>
+        <TextView
+            android:text="Total Calories"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="103"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Total Fat"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="1 g"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Folate"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="39 mcg"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Vitamin C"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="69 mg"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Vitamin A"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="295 Iu"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Potassium"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:padding="8dip"
+            />
+        <TextView
+            android:text="237 mg"
+            android:textColor="#000000"
+            android:gravity="right"
+            android:padding="8dip" />
+    </TableRow>
+    
+</TableLayout>
+    
+</LinearLayout>

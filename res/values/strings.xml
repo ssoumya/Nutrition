@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Nutritional Values</string>
+    <string name="NutritionalValuesActivity">NutritionalValuesActivity</string>
+    <string name="MenuActivity">MenuActivity</string>
+    
+    <string name="HelpActivity">MenuActivity</string>
+    <string name="SpeakActivity">MenuActivity</string>
+    
+    <string name="StrawberryActivity">MenuActivity</string>    
+    <string name="BurgerActivity">MenuActivity</string>
+    <string name="TangerineActivity">MenuActivity</string>
+    <string name="EggplantActivity">MenuActivity</string>    
+    <string name="CheesecakeActivity">MenuActivity</string>
+    <string name="CarrotActivity">MenuActivity</string>    
+        
+    <string name="carrots">carrots1</string>
+    <string name="cake">cake</string>
+    <string name="cheesecake">cheesecake</string>
+    <string name="burger">burger</string>
+    <string name="qburger">qburger</string>
+    <string name="bgpic">bgpic</string>
+    <string name="nutrition">nutrition</string>
+    <string name="eggplant">eggplant</string>
+    <string name="pegglant">pegglant</string>
+     <string name="straw1">straw1</string>
+    <string name="strawberry2">strawberry2</string>
+    <string name="Speak">Speak</string>
+</resources>

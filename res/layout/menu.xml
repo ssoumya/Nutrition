@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bgpic">
+ <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="80px" >
+   
+        <TableRow android:gravity="right">
+    <TextView
+            android:id="@+id/txtmenu"
+            android:text="Menu Items     "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30px"/>
+
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="65px"
+        android:text="@string/Speak" >
+
+    </Button>
+    <Button 
+        android:id="@+id/btn_help"
+        android:text="Help"
+        android:layout_width="wrap_content"
+        android:layout_height="65px">
+    </Button>  
+    <Button 
+        android:id="@+id/btn_exit"
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="65px">
+    </Button>
+    </TableRow>
+  
+</TableLayout>
+   <Button android:drawableLeft="@drawable/straw1"
+        android:id="@+id/btn_strawberry"
+        android:text="Strawberry"
+        android:layout_width="fill_parent"
+        android:layout_height="110px">
+    </Button>
+    <Button android:drawableLeft="@drawable/burger"
+        android:id="@+id/btn_burger"
+        android:text="Quesadilla Burger"
+        android:layout_width="fill_parent"
+        android:layout_height="110px">
+    </Button>
+    <Button android:drawableLeft="@drawable/tangerines"
+        android:id="@+id/btn_tangerine"
+        android:text="Tangerines"
+        android:layout_width="fill_parent"
+        android:layout_height="110px">
+    </Button>
+    <Button android:drawableLeft="@drawable/eggplant"
+        android:id="@+id/btn_eggplant"
+        android:text="Parmigiana Eggplant"
+        android:layout_width="fill_parent"
+        android:layout_height="110px">
+    </Button>
+    <Button android:layout_height="110px" 
+            android:layout_width="fill_parent" 
+            android:text="Cheese Cake" 
+            android:id="@+id/btn_cheesecake" 
+            android:drawableLeft="@drawable/cheesecake">
+    </Button>
+    <Button android:layout_height="110px" 
+            android:layout_width="fill_parent" 
+            android:text="Carrot" 
+            android:id="@+id/btn_carrot" 
+            android:drawableLeft="@drawable/carrots">
+    </Button>
+    
+</LinearLayout>

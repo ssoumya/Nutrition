@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bgpic">
+  
+  <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60px" >
+   
+      <TableRow android:gravity="right">
+     <Button 
+        android:id="@+id/btn_help_menu"
+        android:text="Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="55px">
+    </Button>  
+    <Button 
+        android:id="@+id/btn_help_exit"
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="55px">
+    </Button>
+    </TableRow>
+  
+</TableLayout>
+  
+<TextView
+            android:text="Instructions"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32px"
+            android:textColor="#000000"
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            
+         />
+<TableLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:gravity="center">
+
+    <TableRow>
+        <TextView
+            android:text="To know about the nutrition values of a food item SAY Name of the Food Item (or) SELECT The Food Item in the MENU"
+            android:padding="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="190px"
+            android:textSize="28px"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="To go the MENU Screen SAY Menu (or) SELECT Menu "
+            android:padding="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="160px"
+            android:textSize="28px"
+            android:textColor="#000000"
+            />
+    </TableRow>
+    <TableRow >
+           <TextView
+            android:text="To Exit from the Application SAY Exit (or) SELECT Exit "
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="160px"
+            android:textSize="28px"
+             android:padding="12dip" />
+    </TableRow>
+</TableLayout>         
+    
+</LinearLayout>
