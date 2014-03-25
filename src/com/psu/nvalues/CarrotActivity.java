@@ -64,15 +64,7 @@ public class CarrotActivity extends Activity implements OnClickListener{
         btn_exit= (Button)findViewById(R.id.btn_carrot_exit);
         btn_exit.setOnClickListener(this);        
         
-        String str_nutrition = "Carrots of Serving Size 1 cup or 128g contain," +
-        		"Total Calories             52," +
-        		"Total Fat                    3," +
-        		"Carbohydrate           12g," +
-        		"Protein                 4g," +
-        		"Vitamin A                428%," +
-        		"Protein   abc             4g," +
-        		"Vitamin abc                428%," +
-        		"Vitamin C              13% "; 
+        String str_nutrition = "Carrots of Serving Size 1 cup or 128g contain,";
         
         _vocalizer = getSpeechKit().createVocalizerWithLanguage("en_US", vocalizerListener, new Handler());        
         
