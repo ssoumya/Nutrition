@@ -34,6 +34,7 @@ public class CarrotActivity extends Activity implements OnClickListener{
     {
         return _speechKit;
     }	
+    
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -69,6 +70,8 @@ public class CarrotActivity extends Activity implements OnClickListener{
         		"Carbohydrate           12g," +
         		"Protein                 4g," +
         		"Vitamin A                428%," +
+        		"Protein   abc             4g," +
+        		"Vitamin abc                428%," +
         		"Vitamin C              13% "; 
         
         _vocalizer = getSpeechKit().createVocalizerWithLanguage("en_US", vocalizerListener, new Handler());        
